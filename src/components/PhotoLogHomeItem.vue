@@ -1,6 +1,8 @@
 <template>
   <div class="component">
-    <img class="component__image" src="../assets/img/fox.jpg" alt="fox">
+    <img class="component__image"
+      src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
+      alt="fox">
     <div class="component__details">
       <div class="component__title">
         <p>Fox</p>
@@ -54,19 +56,13 @@ export default {
   justify-content: space-between;
   flex-direction: column;
   gap: 7rem;
-  margin: auto;
   padding: 2rem;
+  margin: auto;
 }
 
 .component__title {
   font-size: 5rem;
   margin: auto;
-}
-
-.component__source {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
 }
 
 /* Portrait Mobile 0px ~ 403px */
