@@ -9,38 +9,7 @@
         <p>Author: Ray Hennessy</p>
       </div>
       <div class="component__source">
-        <p>Unsplash.com</p>
-        <a>https://unsplash.com/photos/xUUZcpQlqpM</a>
-      </div>
-    </div>
-  </div>
-  <div class="component">
-    <img class="component__image" src="../assets/img/fox.jpg" alt="fox">
-    <div class="component__details">
-      <div class="component__title">
-        <p>Fox</p>
-      </div>
-      <div class="component__author">
-        <p>Author: Ray Hennessy</p>
-      </div>
-      <div class="component__source">
-        <p>Unsplash.com</p>
-        <a>https://unsplash.com/photos/xUUZcpQlqpM</a>
-      </div>
-    </div>
-  </div>
-  <div class="component">
-    <img class="component__image" src="../assets/img/fox.jpg" alt="fox">
-    <div class="component__details">
-      <div class="component__title">
-        <p>Fox</p>
-      </div>
-      <div class="component__author">
-        <p>Author: Ray Hennessy</p>
-      </div>
-      <div class="component__source">
-        <p>Unsplash.com</p>
-        <a>https://unsplash.com/photos/xUUZcpQlqpM</a>
+        <a href="https://unsplash.com/photos/xUUZcpQlqpM">Unsplash.com</a>
       </div>
     </div>
   </div>
@@ -87,7 +56,6 @@ export default {
   gap: 7rem;
   margin: auto;
   padding: 2rem;
-  height: 40%;
 }
 
 .component__title {
@@ -99,5 +67,21 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+/* Portrait Mobile 0px ~ 403px */
+@media only screen and (max-width: 403px) {
+  .component {
+    max-width: 400px;
+    flex-direction: column;
+  }
+
+  .component__image {
+    width: 100%;
+  }
+
+  .component__source {
+    flex-wrap: wrap;
+  }
 }
 </style>
