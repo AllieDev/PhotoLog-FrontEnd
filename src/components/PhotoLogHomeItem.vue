@@ -1,17 +1,15 @@
 <template>
   <div class="component">
-    <img class="component__image"
-      src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
-      alt="fox">
+    <img class="component__image" :src="photoLogData.imageUrl" :alt="photoLogData.title">
     <div class="component__details">
       <div class="component__title">
-        <p>Fox</p>
+        <p>{{ photoLogData.title }}</p>
       </div>
       <div class="component__author">
-        <p>Author: Ray Hennessy</p>
+        <p>{{ photoLogData.author }}</p>
       </div>
       <div class="component__source">
-        <a href="https://unsplash.com/photos/xUUZcpQlqpM">Unsplash.com</a>
+        <a :href="photoLogData.sourceLink">{{ photoLogData.websiteName }}</a>
       </div>
     </div>
   </div>
@@ -25,6 +23,7 @@ export default {
 
     }
   },
+  props: ["photoLogData"],
 }
 </script>
 
