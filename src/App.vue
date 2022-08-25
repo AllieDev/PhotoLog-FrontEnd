@@ -30,6 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 0 20px;
 }
 .nav__logo {
   color: white;
@@ -47,6 +48,6 @@ import { RouterLink, RouterView } from 'vue-router'
 .nav__link {
   color: white;
   text-decoration: none;
-
+  font-size: medium;
 }
 </style>
