@@ -34,7 +34,7 @@ export default {
   border: solid 2px #000;
   border-radius: 10px;
   padding: 2rem;
-  margin: 5rem auto 0;
+  margin: 5rem 2.5rem;
   max-width: 1150px;
   transition: 0.5s;
   transform: scale(1);

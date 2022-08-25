@@ -30,6 +30,12 @@ export default {
 </script>
 
 <style scoped>
+.home-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>
 
 
