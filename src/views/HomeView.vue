@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async getPhotoLogs() {
-      const response = await fetch("http://www.localhost:3000/photo-logs/");
+      const response = await fetch("http://localhost:3000/photo-logs/");
       const data = await response.json();
       this.arrayOfPhotoLogs = data.photoLogsData;
     }
