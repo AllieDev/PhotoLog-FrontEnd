@@ -1,6 +1,10 @@
 <template>
   <div class="component">
-    <img class="component__image" :src="photoLogData.imageUrl" :alt="photoLogData.title">
+    <img
+      class="component__image"
+      :src="photoLogData.imageUrl"
+      :alt="photoLogData.title"
+    />
     <div class="component__details">
       <div class="component__title">
         <p>{{ photoLogData.title }}</p>
@@ -16,15 +20,12 @@
 </template>
 
 <script>
-
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
   props: ["photoLogData"],
-}
+};
 </script>
 
 <style scoped>
