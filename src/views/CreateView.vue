@@ -180,6 +180,7 @@ export default {
 .category-table p {
   color: rgb(84, 84, 84);
   margin: 0;
+  font-size: medium;
 }
 
 .table-list-container {

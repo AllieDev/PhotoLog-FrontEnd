@@ -42,7 +42,7 @@ export default {
 }
 
 .component:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   opacity: 1;
 }
 
